@@ -1,0 +1,2 @@
+# Flag usual location
+Desktop
