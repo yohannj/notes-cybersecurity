@@ -1,5 +1,5 @@
 # Local authentication
-﻿Local authentication is done using the Local Security Authority (LSA). LSA is a protected subsystem that keeps track of the security policies and the accounts that are on a computer system. It also maintains information about all aspects of local security on a computer.
+Local authentication is done using the Local Security Authority (LSA). LSA is a protected subsystem that keeps track of the security policies and the accounts that are on a computer system. It also maintains information about all aspects of local security on a computer.
 
 # Active Directory
 ## On-Premise Active Directory (AD)
@@ -34,7 +34,7 @@ Client store TGT until expiration (will then ask a new one)
 To connect to a service, Client send TGT to TGS, specifying the SPN he wants to access.
 TGS sends back a session key to access the service.
 
-## Azure Active Directory ﻿(AAD)
+## Azure Active Directory (AAD)
 Contains users and groups. The former connects with a username and a password to access numerous services.
 
 It uses one of the following methods:

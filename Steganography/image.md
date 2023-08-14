@@ -9,6 +9,3 @@ sudo stegseek INPUT_FILE
 # Source: git clone https://github.com/ra1nb0rn/lsb_image_stego
 ./lsb_image_stego.py -R -c INPUT_FILE -o OUTPUT_FILE
 ```
-
-C:\WINDOWS\System32\wsl.exe
-"terminal.integrated.shell.windows": "C:\\WINDOWS\\System32\\wsl.exe",

@@ -3,6 +3,7 @@
 ```bash
 # Python is often available. python2/python3 might need to be used
 python -c 'import pty;pty.spawn("/bin/bash")'
+python3 -c 'import pty;pty.spawn("/bin/bash")'
 
 # Get stuff like 'clear' available
 export TERM=xterm

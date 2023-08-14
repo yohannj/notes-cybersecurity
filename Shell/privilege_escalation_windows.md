@@ -1,2 +1,5 @@
+# Use winpeas (windows priv esc awesome script)
+Find a way to have Scripts/privilege-escalation-awesome-scripts-suite/winPEAS/winpeas.bat
 
-https://github.com/carlospolop/privilege-escalation-awesome-scripts-suite/tree/master/winPEAS
+# Check privilegies
+whoami /priv

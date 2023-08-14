@@ -1,3 +1,10 @@
+# Important files
+## Consol history
+%userprofile%\AppData\Roaming\Microsoft\Windows\PowerShell\PSReadline\ConsoleHost_history.txt
+
+## Boot options + BIOS firmware
+C:\boot.ini
+
 # Important folders
 ## PerfLogs
 Stores the system issues and other reports regarding performance
